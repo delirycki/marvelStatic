@@ -11,9 +11,9 @@ const timestamp = new Date().getTime();
 const apikey = "911d546bd79d3f82f8c8b80f8db09803"
 const privkey = "8a2bc7b571c1c73e1df78efce097299714bab191"
 const hashh = timestamp+privkey+apikey
-
 const hash = MD5(hashh).toString()
 const url = `https://gateway.marvel.com:443/v1/public/characters?limit=10&ts=${timestamp}&apikey=${apikey}&hash=${hash}`
+
 export async function getServerSideProps() {
   const resp = await fetch(url);
 
