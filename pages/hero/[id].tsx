@@ -11,7 +11,7 @@ const timestamp = new Date().getTime();
 const apikey = "911d546bd79d3f82f8c8b80f8db09803"
 const privkey = "8a2bc7b571c1c73e1df78efce097299714bab191"
 const hash = MD5(timestamp+privkey+apikey).toString()
-const url = `https://gateway.marvel.com:443/v1/public/characters?limit=10&ts=${timestamp}&apikey=${apikey}&hash=${hash}`
+const url = `https://gateway.marvel.com:443/v1/public/characters?limit=40&ts=${timestamp}&apikey=${apikey}&hash=${hash}`
 
 export async function getStaticPaths() {
   const resp = await fetch(url);
