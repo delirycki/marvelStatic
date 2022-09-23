@@ -50,7 +50,7 @@ export default function Home ({data}:{data:any}):any {
           </div>
         ))}
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75448.22842567014!2d20.465698800000002!3d53.7760107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e2792d071419c7%3A0x106a8126cf54c20f!2sOlsztyn!5e0!3m2!1sen!2spl!4v1663914613074!5m2!1sen!2spl" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d75448.22842567014!2d20.465698800000002!3d53.7760107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e2792d071419c7%3A0x106a8126cf54c20f!2sOlsztyn!5e0!3m2!1sen!2spl!4v1663914613074!5m2!1sen!2spl" width="600" height="450" loading="lazy"/>
     </div>
   )
 }
