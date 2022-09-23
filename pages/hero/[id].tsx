@@ -45,7 +45,6 @@ export default function Details({data}:{data:any}) {
     return null;
   }
   const hero = data.data.results[0]
-  console.log(hero)
 
   return (
     <div>
